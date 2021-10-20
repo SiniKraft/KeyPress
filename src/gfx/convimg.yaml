@@ -1,0 +1,20 @@
+palettes:
+  - name: global_palette
+    fixed-entries:
+      - color: {index: 0, r: 255, g: 255, b: 255}
+    images: automatic
+
+converts:
+  - name: sprites
+    palette: global_palette
+    images:
+      - title.png
+
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - sprites
+
