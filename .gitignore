@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 
 backup_makefile
+obj/
+bin/KEYPRESS.bin
